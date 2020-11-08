@@ -1,3 +1,30 @@
 <resources>
-    <string name="app_name">SpaceNavigationViewTutorial</string>
+    <string name="app_name">Space Navigation View</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="lorm">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت</string>
+
+    <string-array name="array_technology">
+        <item>Fragment</item>
+        <item>Volley</item>
+        <item>Retrofit</item>
+        <item>Dialog</item>
+        <item>Permission</item>
+        <item>Menu</item>
+        <item>Navigation Menu</item>
+        <item>Json</item>
+        <item>RESTfull API</item>
+        <item>SearchBar</item>
+        <item>Firebase</item>
+        <item>SQLite</item>
+        <item>Realm</item>
+        <item>ROOM</item>
+        <item>GoogleMap</item>
+        <item>Style</item>
+        <item>Font</item>
+        <item>Widget</item>
+
+    </string-array>
+
+
+
 </resources>
