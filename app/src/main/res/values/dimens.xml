@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <dimen name="spaceIconSize">24dp</dimen>
-    <dimen name="spaceTextSize">16sp</dimen>
+    <dimen name="spaceIconSize">16dp</dimen>
+    <dimen name="spaceTextSize">13sp</dimen>
 </resources>
