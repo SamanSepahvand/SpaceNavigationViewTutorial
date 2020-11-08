@@ -8,8 +8,8 @@
 </br>
 
 
-</br>  <a href="https://faranesh.com/programming/19315-complete-training-to-work-with-maps-in-android-programming"><b>
-**دریافت دوره آموزش  کار با کتابخانه Space Navigation View در اندروید
+</br>  <a href="https://faranesh.com/author/samansepahvand"><b>
+دریافت دوره آموزش  کار با کتابخانه Space Navigation View در اندروید
 </b></a></br>
 </br>  
 # اسکرین شات ها
@@ -20,12 +20,12 @@
 
 <table>
 <tr>
-<td><img src="http://s17.picofile.com/file/8412992118/Screenshot_20201105_212253_.jpg"></td>
-<td><img src="http://s16.picofile.com/file/8412992142/Screenshot_20201105_212317_.jpg"></td>
-<td><img src="http://s16.picofile.com/file/8412992184/Screenshot_20201105_212606_.jpg"></td>
-<td><img src="http://s16.picofile.com/file/8412992218/Screenshot_20201105_212611_.jpg"></td>
-<td><img src="http://s16.picofile.com/file/8412992242/Screenshot_20201105_212614_.jpg"></td>
- <td><img src="http://s17.picofile.com/file/8412992250/Screenshot_20201105_212621_.jpg"></td>
+<td><img src="https://raw.githubusercontent.com/SamanSepahvand/SpaceNavigationViewTutorial/master/image/device-2020-11-08-210457.png"></td>
+<td><img src="https://raw.githubusercontent.com/SamanSepahvand/SpaceNavigationViewTutorial/master/image/device-2020-11-08-210248.png"></td>
+<td><img src="https://raw.githubusercontent.com/SamanSepahvand/SpaceNavigationViewTutorial/master/image/device-2020-11-08-210310.png"></td>
+<td><img src="https://raw.githubusercontent.com/SamanSepahvand/SpaceNavigationViewTutorial/master/image/device-2020-11-08-210338.png"></td>
+<td><img src="https://raw.githubusercontent.com/SamanSepahvand/SpaceNavigationViewTutorial/master/image/device-2020-11-08-210353.png"></td>
+ <td><img src="https://raw.githubusercontent.com/SamanSepahvand/SpaceNavigationViewTutorial/master/image/device-2020-11-08-210406.png"></td>
 </tr>
 </table>
 </br>
