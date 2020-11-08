@@ -18,13 +18,34 @@
         android:layout_height="?android:attr/actionBarSize"
         android:background="@color/colorPrimary" >
 
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:textSize="22sp"
-            android:textColor="#fff"
-            android:gravity="center"
-            android:text="خانه"/>
+            android:gravity="center_vertical|right"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="22sp"
+                android:layout_weight="1"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:text="خانه"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/menu"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+
     </androidx.appcompat.widget.Toolbar>
 
 
