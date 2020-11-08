@@ -18,7 +18,8 @@
 <br>
 
 <table>
-<tr>
+<tr>  <td><img src="https://raw.githubusercontent.com/SamanSepahvand/SpaceNavigationViewTutorial/master/image/device-2020-11-08-212350.png"></td>
+  <td><img src="https://raw.githubusercontent.com/SamanSepahvand/SpaceNavigationViewTutorial/master/image/device-2020-11-08-212408.png"></td>
 <td><img src="https://raw.githubusercontent.com/SamanSepahvand/SpaceNavigationViewTutorial/master/image/device-2020-11-08-210353.png"></td>
 <td><img src="https://raw.githubusercontent.com/SamanSepahvand/SpaceNavigationViewTutorial/master/image/device-2020-11-08-210248.png"></td>
 <td><img src="https://raw.githubusercontent.com/SamanSepahvand/SpaceNavigationViewTutorial/master/image/device-2020-11-08-210310.png"></td>
