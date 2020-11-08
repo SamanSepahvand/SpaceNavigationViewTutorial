@@ -20,11 +20,11 @@
 <table>
 <tr> 
 <td>
+  <td><img src="https://raw.githubusercontent.com/SamanSepahvand/SpaceNavigationViewTutorial/master/image/device-2020-11-08-210310.png"></td>
+<td><img src="https://raw.githubusercontent.com/SamanSepahvand/SpaceNavigationViewTutorial/master/image/device-2020-11-08-210338.png"></td>
  <td><img src="https://raw.githubusercontent.com/SamanSepahvand/SpaceNavigationViewTutorial/master/image/device-2020-11-08-210457.png"></td>
 <td><img src="https://raw.githubusercontent.com/SamanSepahvand/SpaceNavigationViewTutorial/master/image/device-2020-11-08-210248.png"></td>
-<td><img src="https://raw.githubusercontent.com/SamanSepahvand/SpaceNavigationViewTutorial/master/image/device-2020-11-08-210310.png"></td>
-<td><img src="https://raw.githubusercontent.com/SamanSepahvand/SpaceNavigationViewTutorial/master/image/device-2020-11-08-210338.png"></td>
- <td></td>
+
   </tr>
 <tr>
 
