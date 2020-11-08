@@ -26,6 +26,8 @@
 <td><img src="https://raw.githubusercontent.com/SamanSepahvand/SpaceNavigationViewTutorial/master/image/device-2020-11-08-210248.png"></td>
 
   </tr>
+  </table>
+  <table>
 <tr>
 
   <td><img src="https://raw.githubusercontent.com/SamanSepahvand/SpaceNavigationViewTutorial/master/image/device-2020-11-08-210406.png"></td>
