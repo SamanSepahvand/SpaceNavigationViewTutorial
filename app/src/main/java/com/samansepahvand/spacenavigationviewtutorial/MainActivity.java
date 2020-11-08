@@ -4,7 +4,9 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
+import android.content.Intent;
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.PersistableBundle;
@@ -28,15 +30,18 @@ public class MainActivity extends AppCompatActivity implements SpaceOnClickListe
 
     Button showBadge;
 
-
+    Typeface myFont;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+         myFont=Typeface.createFromAsset(getAssets(),"fonts/myfont.ttf");
+
         initView();
         initSpaceNavigationView();
 
+        spaceNavigationView.initWithSaveInstanceState(savedInstanceState);
 
         showBadge.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -47,7 +52,8 @@ public class MainActivity extends AppCompatActivity implements SpaceOnClickListe
         showBadge.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View v) {
-                spaceNavigationView.changeBadgeTextAtIndex(0, 25);
+
+                Change();
                 return false;
             }
         });
@@ -56,11 +62,28 @@ public class MainActivity extends AppCompatActivity implements SpaceOnClickListe
 
     }
 
+    @Override
+    protected void onSaveInstanceState(@NonNull Bundle outState) {
+        super.onSaveInstanceState(outState);
+        spaceNavigationView.onSaveInstanceState(outState);
+    }
+
+    private  void Change(){
+
+        spaceNavigationView.changeCenterButtonIcon(R.drawable.ic_baseline_home_24);
+
+        spaceNavigationView.changeItemIconAtPosition(0,R.drawable.ic_baseline_home_24);
+        spaceNavigationView.changeItemTextAtPosition(3,"news");
+
+        spaceNavigationView.changeSpaceBackgroundColor(ContextCompat.getColor(this,R.color.colorDark));
 
 
+        spaceNavigationView.changeBadgeTextAtIndex(3,20);
+
+    }
     private void initBadge() {
         //show badge
-        spaceNavigationView.shouldShowFullBadgeText(true);
+        spaceNavigationView.shouldShowFullBadgeText(false);
         spaceNavigationView.showBadgeAtIndex(0, 9, Color.RED);
         spaceNavigationView.showBadgeAtIndex(1, 32, Color.BLUE);
         spaceNavigationView.showBadgeAtIndex(2, 10, Color.BLACK);
@@ -87,15 +110,22 @@ public class MainActivity extends AppCompatActivity implements SpaceOnClickListe
         //  spaceNavigationView.showTextOnly();
 
 
+        spaceNavigationView.setFont(myFont);
+     // spaceNavigationView.setFont(Typeface.createFromAsset(getAssets(),"fonts/myfont.ttf"));
+
+spaceNavigationView.setCentreButtonRippleColor(ContextCompat.getColor(this,R.color.colorDark));
+
+
+
     }
 
     private void initSpaceNavigationView() {
 
-        spaceNavigationView.addSpaceItem(new SpaceItem("e", R.drawable.ic_baseline_settings_24));
-        spaceNavigationView.addSpaceItem(new SpaceItem("P", R.drawable.ic_baseline_person_24));
+        spaceNavigationView.addSpaceItem(new SpaceItem("تنظبمات", R.drawable.ic_baseline_settings_24));
+        spaceNavigationView.addSpaceItem(new SpaceItem("پروفایل", R.drawable.ic_baseline_person_24));
         spaceNavigationView.setCentreButtonIcon(R.drawable.ic_baseline_home_24);
-        spaceNavigationView.addSpaceItem(new SpaceItem("s", R.drawable.ic_baseline_settings_24));
-        spaceNavigationView.addSpaceItem(new SpaceItem("m", R.drawable.ic_baseline_person_24));
+        spaceNavigationView.addSpaceItem(new SpaceItem("راهنمایی", R.drawable.ic_baseline_help_24));
+        spaceNavigationView.addSpaceItem(new SpaceItem("دسته بندی", R.drawable.ic_baseline_menu_book_24));
 
         initSpaceCustomStyle();
 
@@ -114,6 +144,11 @@ public class MainActivity extends AppCompatActivity implements SpaceOnClickListe
     @Override
     public void onCentreButtonClick() {
         Log.e(TAG, "onCentreButtonClick: " + "OK!");
+
+
+
+        startActivity(new Intent(MainActivity.this,DetailsActivity.class));
+
     }
 
     @Override
